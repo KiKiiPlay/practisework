@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+#p01{
+	float:right;
+}
+#p02{
+	width:600px;
+	height:400px;
+}
+#p03{
+	width:300px;
+	height:300px;
+}
+#p05{
+  width:50px;
+  height:50px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>США-страна возможностей</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+      <a href="index.html"><li>Города</li></a>
+      <a href="Еда.html"><li>Еда</li></a>
+      <a href="Культура.html"><li>Культура</li></a>
+    </ul>
+  </div>
+
+  <div class="col-9">
+    <h1>Города США</h1>
+    <p>Америка – это страна безграничных возможностей и процветания. «Молодая страна», возникшая чуть более двухсот лет назад, которая не может похвастаться ни древними традициями, ни уходящей вглубь веков культурой. Зато на сегодняшний день Америка является лидером в исследовательских работах, в создании передовых технологий, в развитии промышленности.</p>
+  </div>
+  <img id="p03" src="6Ar6.gif">
+  <div id="p01" class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img id="p02" src="US_US-CA_LAX_1.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img id="p02" src="2017-08-08_150217225810.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img id="p02" src="location_img-59-1969619245-148.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+  <p>(1)Лос-Анджелес – огромный город на юге Калифорнии, столица американской киноиндустрии и телевидения. Район Голливуд, название которого выложено на холме огромными буквами, приобрел всемирную известность благодаря киностудиям "Парамаунт Пикчерз", "Юниверсал" и "Уорнэр Бразэрс". Туристы могут отправиться на экскурсию по съемочным площадкам популярных фильмов. На Голливудском бульваре расположен Китайский театр TCL, перед которым кинозвезды оставляют отпечатки ладоней и ступней. А на Аллее славы можно купить карту, где отмечены дома знаменитостей.</p>
+  <p>(2)Чикаго – город на берегах озера Мичиган в штате Иллинойс. Это один из самых крупных городов в США, известный своей современной архитектурой. Среди его многочисленных небоскребов стоит отметить Центр Джона Хэнкока, Уиллис-тауэр (бывший Сирс-тауэр) высотой почти 443 метра и Трибьюн-тауэр в неоготическом стиле. В городе расположено много известных музеев, в том числе Чикагский институт искусств, где хранятся работы знаменитых импрессионистов и постимпрессионистов.</p>
+  <p>(3)Нью-Йорк включает пять боро (районов), расположенных в месте впадения реки Гудзон в Атлантический океан. В центре города расположен густонаселенный Манхэттен – один из крупнейших в мире коммерческих, финансовых и культурных центров. Главные достопримечательности Нью-Йорка – многочисленные небоскребы, в том числе Эмпайр-стейт-билдинг, и огромный Центральный парк. На залитой неоновыми огнями площади Таймс-сквер расположен театр "Бродвей".</p>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+ <p style="text-align:center;">@_kiki_play_</p>
+   <a href="https://www.instagram.com/_kiki_play_/" target="blank"><img id="p05" src="a0d593d4e9d5568b0556d39fec0b9218.png"></a>
+  <a href="https://www.facebook.com/profile.php?id=100038723520276" target="blank"><img id="p05" src="1200px-Facebook_f_logo_(2019).png"></a>
+  <a href="https://vk.com/vandzhurak" target="blank"><img id="p05" src="1200px-VK.com-logo.png"></a>
+</footer>
+</body>
+
+<!-- Mirrored from www.w3schools.com/css/tryit.asp?filename=tryresponsive_styles by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Sep 2019 08:48:44 GMT -->
+</html>
